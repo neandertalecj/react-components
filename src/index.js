@@ -9,6 +9,7 @@ import Home from './layout/home/home';
 import ButtonSandbox from './components/button/SandBox'
 import ButtonGroupSandbox from './components/button-group/SandBox'
 import IconSandBox from './components/icon/SandBox'
+import ImageSandBox from './components/image/SandBox'
 
 ReactDOM.render((
   <BrowserRouter>
@@ -18,6 +19,7 @@ ReactDOM.render((
         <Route path="/button" component={ButtonSandbox} />
         <Route path="/button-group" component={ButtonGroupSandbox} />
         <Route path="/icon" component={IconSandBox} />
+        <Route path="/image" component={ImageSandBox} />
       </Switch>
     </App>
   </BrowserRouter>
